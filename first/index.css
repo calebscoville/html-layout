@@ -21,10 +21,15 @@ body {
     float: right;
 }
 
-.footer {
+.box {
     width: 100%;
+    height: calc(100vh - 200px);
+}
+
+.footer {
+    width: 74%;
     height: 100px;
     background: #3A3A3A;
-    position: absolute;
     bottom: 0;
+    margin: auto;
 }
