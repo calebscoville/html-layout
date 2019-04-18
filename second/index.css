@@ -1,51 +1,69 @@
 body {
-    height: 100vh;
-    width: 100vw;
+    margin: 0;
+    padding: 25px;
 }
 
 .box {
-    background: white;
     border: solid;
-    height: 25%;
-    width: 95%;
-    margin: auto;
-    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
 }
 
 .purplebox {
-    background: rgb(182, 41, 182);
-    height: 100%;
-    width: 4%;
-    margin: 5% 5% 5% 5%;
+    background-color: rgb(182, 41, 182);
+    height: 150px;
+    width: 50px;
     display: inline-block;
 }
 
 .greenbox {
     background: green;
-    height: 10%;
-    width: 10%;
+    height: 190px;
+    width: 390px;
     display: inline-block;
-    margin: 5% 5% 5% 5%
+    margin: 0 50px;
 }
 
 .bluecircle {
     background: rgb(15, 139, 161);
-    height: 5%;
-    width: 5%;
-    border-radius: 75%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     display: inline-block;
-    margin: 10%;
-    
 }
 
 .dottedbox {
-    background: white;
+    width: 100%;
     border: dotted;
     height: 200px;
+    padding: 45px
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .shadowbox {
-    background: white;
-    border: shadow;
-    height: 200px;
+    width: 100%;
+    height: 190px;
+    background-color: rgb(223, 228, 151);
+    box-shadow: 8px 8px 6px 0;
+    
+}
+
+.bottombox {
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    width: 50%;
+    height: 250px;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 6px 0;
+    border: thin black;
+
+.bottombox h1 {
+    width: 100%;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+
 }
